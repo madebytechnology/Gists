@@ -1,0 +1,80 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+
+@import "bootstrap";
+
+body {
+ 
+  background: #CC9999 !important;
+  text-align: center;
+  font-size: 18px;	
+
+}
+
+table {
+
+background: #9999CC !important;
+font-size: 18px;
+
+}
+
+th {
+
+text-align: center;
+
+}
+
+
+.table-bordered {
+
+width: 1000px;
+margin-left: 150px;
+
+}
+
+h2 {
+
+margin-left: 27px;
+
+}
+
+.pokaz {
+
+font-size: 18px;
+text-align: left;
+margin-left: 20px;
+width: 500px;
+
+
+}
+	
+.nowy {
+
+font-size: 18px;
+text-align: left;
+margin-left: 20px;
+width: 500px;
+
+}
+
+.edycja {
+
+font-size: 18px;
+text-align: left;
+margin-left: 20px;
+width: 500px;
+
+
+}

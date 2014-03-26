@@ -1,0 +1,35 @@
+ <div class="jumbotron">
+  <h1>Store your code. </h1>
+  <p>Here you can keep own code snippets. Try it for free! </p>
+ <%= link_to 'New Gist', new_gist_path, :class => "btn btn-primary btn-lg" %>
+</div>
+
+<h2>Your amazing codes:</h2><br/> 
+
+ <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Snippet</th>
+      <th>Language</th>
+      <th>Description</th>
+	<th>Show Operation</th>
+	<th>Edit Operation</th>
+	<th>Destroy Operation</th>    
+</tr>
+  </thead>
+  <tbody>
+   <% @gists.each do |gist| %>
+      <tr>
+        <td><%= gist.snippet[0,10] %>[…]</td>
+        <td><%= gist.lang %></td>
+        <td><%= gist.description %></td>
+        <td><%= link_to 'Show', gist %></td>
+        <td><%= link_to 'Edit', edit_gist_path(gist) %></td>
+        <td><%= link_to 'Destroy', gist, method: :delete, data: { confirm: 'Are you sure?'} %> </td>
+      </tr>
+    <% end %> 
+</tbody>
+</table> 
+
+
+<br>
