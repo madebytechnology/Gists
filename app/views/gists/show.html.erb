@@ -7,7 +7,7 @@
     <p class="alert alert-info"><%= notice %></p>
 <% end %>
 
-<h1><b>Showing your gist<b></h1>
+<h1><b>Show gist<b></h1>
 
 
 <br>
@@ -15,7 +15,7 @@
 <p>
   <strong>Your snippet:</strong>
 </p>
-  <%= raw Pygments.highlight(@gist.snippet, lexer: @gist.lang) %>
+  <%= raw Pygments.highlight(@gist.snippet, lexer: @gist.lang)  %>
 <p>
   <strong>Name of programming language:</strong>
  <%= @gist.lang %>

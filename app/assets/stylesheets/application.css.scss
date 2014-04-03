@@ -23,40 +23,24 @@ body {
 
 }
 
-table {
+td {
 
-background: #9999CC !important;
-font-size: 18px;
-
-}
-
-th {
-
-text-align: center;
-
-}
-
-
-.table-bordered {
-
-width: 1000px;
-margin-left: 150px;
+background-color: red;
 
 }
 
 h2 {
 
-margin-left: 27px;
-
+text-align: center;
 }
 
 .pokaz {
 
 font-size: 18px;
 text-align: left;
-margin-left: 20px;
-width: 500px;
-
+padding-left: 20px;
+width: 300px;
+padding-right: 20px;
 
 }
 	
@@ -65,7 +49,7 @@ width: 500px;
 font-size: 18px;
 text-align: left;
 margin-left: 20px;
-width: 500px;
+width: 300px;
 
 }
 
@@ -73,8 +57,17 @@ width: 500px;
 
 font-size: 18px;
 text-align: left;
-margin-left: 20px;
-width: 500px;
+padding-left: 20px;
+width: 300px;
+padding-right: 20px;
 
 
 }
+
+.opis {
+
+background: #C9B3D1;
+font-size: 18px;
+
+}
+

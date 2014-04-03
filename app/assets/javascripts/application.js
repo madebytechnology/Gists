@@ -15,3 +15,7 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap
+//= require pagination
+//= require jquery.history.js
+//= require bind_with_delay
+//= require waypoints

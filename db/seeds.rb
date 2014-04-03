@@ -6,4 +6,14 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-10.times { |i| Gist.create(snippet: "Code #{i} with something", lang: "java", description: "abc #{i}") }
+for i in 0..30
+Gist.create(
+snippet: 'public String funkcja() { int x = 2; 
+for(x = 0; x < 5; x++) {
+System.out.println("To jest numer: " + x + ".";
+}
+}', 
+lang: "java", 
+description: "test"
+) 
+end

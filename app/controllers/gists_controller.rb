@@ -5,15 +5,27 @@ class GistsController < ApplicationController
   # GET /gists
   # GET /gists.json
   def index
- @gists = Gist.all
+ #@gists = Gist.all
+  get_and_show_gists
 end
 
+def get_and_show_gists
+@gists = Gist.paginate(page: params[:page], per_page: 3).order('created_at DESC')
+respond_to do |format|
+format.html
+format.js
+end
+end
 
 
   # GET /gists/1
   # GET /gists/1.json
   def show
  end
+
+def search
+@gists = Gist.search(params[:lang])
+end
 
   # GET /gists/new
   def new
