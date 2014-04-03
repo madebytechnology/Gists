@@ -21,7 +21,6 @@ Podsumowanie względem wymagań:
 - infinite scrolling na stronie index.html.erb;
 - generowanie rekordów przez seeds;
 - poprawione widoki (opis poniżej; w tym rozmiar fontu, wielkość text-area);
-- zaimplementowany infinite scrolling;
 
 Poprawienie widoków:
 <br>
