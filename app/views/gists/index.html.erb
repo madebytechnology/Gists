@@ -1,5 +1,6 @@
 <%- model_class = Gist -%>
 
+<div class="container-fluid full-width">
 <form class="navbar-form navbar-center" controller="gists" role="search" action="/gists/search">
               <div class="form-group">
                 <%= form_tag gists_path, :method => 'get' do %>
@@ -37,4 +38,4 @@
 <%= will_paginate %>
 </div>
 
- 
+</div> 

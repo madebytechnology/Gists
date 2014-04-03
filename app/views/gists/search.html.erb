@@ -1,3 +1,4 @@
+<div class="container-fluid full-width">
 
 <% if(@gists.length > 0) %>
 <%- model_class = Gist -%>
@@ -17,11 +18,12 @@
 
 <% else if(@gists.length == 0) %>
     <div class="alert alert-info">
-      <strong>Sorry. No searched gists.</strong>
+      <strong>Sorry. No found gists.</strong>
     </div>
 <% end end %>
 
 <br><br>
 <%= link_to 'Back', gists_path, :class=>"btn btn-default" %>
+<br><br>
 
-
+</div>
