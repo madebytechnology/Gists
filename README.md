@@ -56,7 +56,7 @@ Dodatkowe gemy
 
 - gem 'sass-rails', '~> 4.0.0'
 - gem 'bootstrap-sass'
-- gem 'pygments.rb
+- gem 'pygments.rb'
 - gem 'will_paginate-bootstrap'
 - gem 'bootstrap-will_paginate'
 - gem 'will_paginate'
