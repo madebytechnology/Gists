@@ -42,6 +42,7 @@ Poprawienie widoków:
   - responsywność;
   - Bootstrap: glyphicon (back - strzałka w lewo);
   - responsywność;
+  - zwiększenie rozmiaru fontu do 18px;
   - inne elementy CSS: zmiana koloru tła;
 - show.html.erb
   - wyróżnianie składni w zależności od języka (Pygments);
