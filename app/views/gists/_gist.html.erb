@@ -1,0 +1,19 @@
+<div class="opis">
+<br><br>
+
+<u><b>Snippet:</b></u><br><br> <%= gist.snippet[0,10] %>[…]<br><br>
+<u><b>Lang:</b></u> <%= gist.lang %><br><br>
+<u><b>Description:</b></u> <%= gist.description %><br>
+<br>
+
+<div class="btn-group">
+
+     <%= link_to 'Show', gist, :class=>"btn btn-default" %>
+
+      <%= link_to 'Edit', edit_gist_path(gist), :class=>"btn btn-default" %>
+
+      <%= link_to 'Destroy', gist, :class=>"btn btn-default",  method: :delete, data: { confirm: 'Are you sure?'} %><br><br>
+</div>
+
+</div>
+<br><br>

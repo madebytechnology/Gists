@@ -1,0 +1,27 @@
+
+<% if(@gists.length > 0) %>
+<%- model_class = Gist -%>
+<h2>Searched codes</h2>
+<span class="glyphicon glyphicon-star" style="color: #CD1076;">
+</span>
+<span class="glyphicon glyphicon-star" style="color: #CD1076">
+</span>
+<span class="glyphicon glyphicon-star" style="color: #CD1076">
+</span>
+<br><br>
+
+
+<div id="my-gists">
+ <%= render @gists %>
+</div>
+
+<% else if(@gists.length == 0) %>
+    <div class="alert alert-info">
+      <strong>Sorry. No searched gists.</strong>
+    </div>
+<% end end %>
+
+<br><br>
+<%= link_to 'Back', gists_path, :class=>"btn btn-default" %>
+
+
