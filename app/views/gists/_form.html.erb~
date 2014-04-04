@@ -26,7 +26,7 @@ a.flatten.select.with_index{|a,i| (i+1) % 2 == 1}.each { |e|
 
   <div class="field">
     <%= f.label :lang %><br><br>
-    <%= f.select(:lang, b) %><br>
+    <%= f.text_field(:lang, b) %><br>
   </div>
 <br>
   <div class="field">
