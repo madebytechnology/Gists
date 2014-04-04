@@ -17,8 +17,8 @@ Podsumowanie względem wymagań:
 - aplikacja wdrożona na Heroku (link powyżej);
 - zastosowany Bootstrap;
 - responsywność stron;
-- wyszukiwanie na stronie index.html.erb;
-- infinite scrolling na stronie index.html.erb;
+- wyszukiwanie na stronie index.html.erb (korzystałam ze stackoverflow, dokumentacji Ruby On Rails, w razie wątpliwości podglądałam prace kolegów i koleżanek na Github'ie);
+- infinite scrolling na stronie index.html.erb (korzystałam z tutoriali na stronie sitepoint (oraz kodu źródłowego na githubie), z dokumentacji Ruby On Rails, z opisu gemów 'will_paginate' i 'will_paginate-Bootstrap', w razie wątpliwości podglądałam prace kolegów i koleżanek na Github'ie);
 - generowanie rekordów przez seeds;
 - poprawione widoki (opis poniżej; w tym rozmiar fontu, wielkość text-area);
 
